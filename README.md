@@ -13,11 +13,8 @@ TF-IDF is often used as a weighting factor in information retrieval and text min
 
 TF-IDF can be used to calculate the relevance of a document for a given query. The higher the TF-IDF score of a document for a given query, the more relevant the document is for that.
 
-## Model 
+## Model and Files 
 Linear Support Vector Classifier (SVC) is a supervised machine learning algorithm for classification problems. It can be used for both binary and multiclass classification. SVC works by mapping data points into a high-dimensional space and then finding a hyperplane that best separates the points.
-
-1- model train and export example.ipynb shows how to preprocess the data and how to create and export the model. It also contains the Performance Report of the model.
-
-2- model use example.py shows how to use the exported model.
-
-3- review classifier model.joblib is the actual exported model consisting of the vectorizer and model.
+- `model train and export example.ipynb` shows how to preprocess the data and how to create and export the model. It also contains the Performance Report of the model. Use this to train and generate the model.
+- `model use example.py` shows how to use the exported model. Run this and give some input text to get the score.
+- `review classifier model.joblib` is the actual exported model consisting of the vectorizer and model. This is the model generated after running the Jupyter Notebook.
